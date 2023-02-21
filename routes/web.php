@@ -22,6 +22,9 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get("/",[siteController::class,"index"]);
+Route::get("/blog/{id}",[siteController::class,"blog_details"]);
+Route::get("/category/{id}",[siteController::class,"category"]);
+Route::post("/comment",[siteController::class,"comment"]);
 
 Route::get("login",[UserController::class,"login"])->name("login");
 Route::get("logout",[UserController::class,"logout"]);

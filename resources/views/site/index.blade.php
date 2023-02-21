@@ -35,116 +35,7 @@
 
 
         <div class="topbar-right">
-          <ul class="topbar-nav nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Samples <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="demo-helpato.html">Helpato</a>
-                <a class="nav-link" href="demo-trello.html">Trello</a>
-                <a class="nav-link" href="demo-gmail.html">Gmail</a>
-                <a class="nav-link" href="demo-skype.html">Skype</a>
-                <a class="nav-link" href="demo-github.html">GitHub</a>
-                <a class="nav-link" href="demo-app.html">Mobile App</a>
-                <a class="nav-link" href="demo-bootstrap.html">Bootstrap</a>
-                <a class="nav-link" href="demo-slack.html">Slack</a>
-                <a class="nav-link" href="demo-zendesk.html">Zendesk</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Headers <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="header-color.html">Solid Color</a>
-                <a class="nav-link" href="header-gradient.html">Gradient</a>
-                <a class="nav-link" href="header-particle.html">Particle</a>
-                <a class="nav-link" href="header-typing.html">Typing Text</a>
-                <a class="nav-link" href="header-image.html">Background Image</a>
-                <a class="nav-link" href="header-video.html">Background Video</a>
-                <a class="nav-link" href="header-parallax.html">Parallax</a>
-                <a class="nav-link" href="header-slider.html">Slider</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blocks <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu cols-2">
-                <a class="nav-link" href="block-feature.html">Feature</a>
-                <a class="nav-link" href="block-feature-textual.html">Textual feature</a>
-                <a class="nav-link" href="block-content.html">Content</a>
-                <a class="nav-link" href="block-portfolio.html">Portfolio</a>
-                <a class="nav-link" href="block-pricing.html">Pricing</a>
-                <a class="nav-link" href="block-cta.html">Call to action</a>
-                <a class="nav-link" href="block-testimonial.html">Testimonial</a>
-                <a class="nav-link" href="block-team.html">Team</a>
-                <a class="nav-link" href="block-contact.html">Contact</a>
-                <a class="nav-link" href="block-signup.html">Signup</a>
-                <a class="nav-link" href="block-subscribe.html">Subscribe</a>
-                <a class="nav-link" href="block-partner.html">Partner</a>
-                <a class="nav-link" href="block-topbar.html">Topbar</a>
-                <a class="nav-link" href="block-footer.html">Footer</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Blog <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="blog-grid.html">Blog grid</a>
-                <a class="nav-link active" href="blog-list.html">Blog list</a>
-                <a class="nav-link" href="blog-single.html">Post</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="shop-list.html">Product list</a>
-                <a class="nav-link" href="shop-single.html">Single product</a>
-                <a class="nav-link" href="shop-cart.html">Cart overview</a>
-                <a class="nav-link" href="shop-checkout.html">Checkout</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pages <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="page-how-it-works.html">How it works</a>
-                <a class="nav-link" href="page-pricing.html">Pricing</a>
-                <a class="nav-link" href="page-portfolio.html">Portfolio</a>
-                <a class="nav-link" href="page-project.html">Project</a>
-                <a class="nav-link" href="page-job.html">Jobs</a>
-                <a class="nav-link" href="page-job-single.html">Job Info</a>
-                <a class="nav-link" href="page-demo.html">Request Demo</a>
-                <a class="nav-link" href="page-press.html">Press</a>
-                <a class="nav-link" href="page-about.html">About</a>
-                <a class="nav-link" href="page-contact.html">Contact</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Extra <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="page-login.html">Login</a>
-                <a class="nav-link" href="page-register.html">Register</a>
-                <a class="nav-link" href="page-faq.html">FAQ</a>
-                <a class="nav-link" href="page-coming-soon.html">Coming soon</a>
-                <a class="nav-link" href="page-privacy.html">Privacy Policy</a>
-                <a class="nav-link" href="page-404.html">Error 404</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Doc <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu align-right">
-                <a class="nav-link" href="doc-element.html">Elements</a>
-                <a class="nav-link" href="doc-component.html">Components</a>
-                <a class="nav-link" href="doc-section.html">Sections</a>
-                <a class="nav-link" href="doc-card.html">Cards</a>
-                <a class="nav-link" href="doc-typography.html">Typography</a>
-                <a class="nav-link" href="doc-utility.html">Utility Classes</a>
-              </div>
-            </li>
-          </ul>
+            <x-nav></x-nav>
         </div>
 
       </div>
@@ -187,113 +78,23 @@
       <section class="section bg-gray">
         <div class="container">
 
-          <div class="card mb-30">
-            <div class="row">
-              <div class="col-12 col-md-4 align-self-center">
-                <a href="blog-single.html"><img src="assets/img/blog-1.jpg" alt="..."></a>
-              </div>
-
-              <div class="col-12 col-md-8">
-                <div class="card-block">
-                  <h4 class="card-title">New features will add to dashboard soon</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
-                  <a class="fw-600 fs-12" href="blog-single.html">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
+            @foreach ($articles as $article)
 
           <div class="card mb-30">
             <div class="row">
               <div class="col-12 col-md-4 align-self-center">
-                <a href="blog-single.html"><img src="assets/img/blog-2.jpg" alt="..."></a>
+                <a href="{{url("blog/$article->id")}}"><img src="{{asset("uploads/$article->cover")}}" alt="..."></a>
               </div>
-
               <div class="col-12 col-md-8">
                 <div class="card-block">
-                  <h4 class="card-title">New features will add to dashboard soon</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
-                  <a class="fw-600 fs-12" href="blog-single.html">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
+                  <h4 class="card-title">{{$article->title}}</h4>
+                  <p class="card-text">{{$article->short_description}}</p>
+                  <a class="fw-600 fs-12" href="{{url("blog/$article->id")}}">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
-
-
-          <div class="card mb-30">
-            <div class="row">
-              <div class="col-12 col-md-4 align-self-center">
-                <a href="blog-single.html"><img src="assets/img/blog-3.jpg" alt="..."></a>
-              </div>
-
-              <div class="col-12 col-md-8">
-                <div class="card-block">
-                  <h4 class="card-title">We've just passed 1,000 customers!</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
-                  <a class="fw-600 fs-12" href="blog-single.html">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="card mb-30">
-            <div class="row">
-              <div class="col-12 col-md-4 align-self-center">
-                <a href="blog-single.html"><img src="assets/img/blog-4.jpg" alt="..."></a>
-              </div>
-
-              <div class="col-12 col-md-8">
-                <div class="card-block">
-                  <h4 class="card-title">We updated to version 1.1</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
-                  <a class="fw-600 fs-12" href="blog-single.html">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="card mb-30">
-            <div class="row">
-              <div class="col-12 col-md-4 align-self-center">
-                <a href="blog-single.html"><img src="assets/img/blog-5.jpg" alt="..."></a>
-              </div>
-
-              <div class="col-12 col-md-8">
-                <div class="card-block">
-                  <h4 class="card-title">Read a getting started tutorial</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
-                  <a class="fw-600 fs-12" href="blog-single.html">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="card mb-30">
-            <div class="row">
-              <div class="col-12 col-md-4 align-self-center">
-                <a href="blog-single.html"><img src="assets/img/blog-6.jpg" alt="..."></a>
-              </div>
-
-              <div class="col-12 col-md-8">
-                <div class="card-block">
-                  <h4 class="card-title">TheSaaS has just started!</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
-                  <a class="fw-600 fs-12" href="blog-single.html">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          @endforeach
 
 
           <nav class="flexbox mt-30">

@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <link rel="stylesheet" href="{{asset("assets/plugins/fontawesome-free/css/all.min.css")}} ">
   <!-- Theme style -->
+  <link rel="stylesheet" href="{{asset('assets/plugins/summernote/summernote-bs4.min.css')}}">
+
   <link rel="stylesheet" href="{{asset('assets/dist/css/adminlte.min.css')}}">
 </head>
 <body class="hold-transition sidebar-mini">
@@ -351,6 +353,14 @@
 <!-- Bootstrap 4 -->
 <script src="{{asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- AdminLTE App -->
+<script src="{{asset('assets/plugins/summernote/summernote-bs4.min.js')}}"></script>
+<script>
+      $(function () {
+        $('#summernote').summernote()
+        // Summernote
+      })
+
+</script>
 <script src="{{asset('assets/dist/js/adminlte.min.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 {{-- <script src="../../dist/js/demo.js"></script> --}}

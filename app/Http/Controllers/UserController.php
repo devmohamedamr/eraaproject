@@ -15,7 +15,13 @@ class UserController extends Controller
     public function loginrequest(Request $request)
     {
         if(Auth::attempt($request->except("_token"))){
-            return redirect('/');
+            return redirect('/admin/category');
         }
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect("login");
     }
 }

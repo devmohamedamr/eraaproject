@@ -9,15 +9,22 @@ use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use App\Repository\ArticleInterface;
 
 class ArticleController extends Controller
 {
+    private $ArticleRepository;
+
+    public function __construct(ArticleInterface $Article)
+    {
+        $this->ArticleRepository = $Article;
+    }
     /**
      * Display a listing of the resource.
      */
     public function index(): View
     {
-        $articles =  article::all();
+        $articles = $this->ArticleRepository->index();
         return view("admin.article.index",compact("articles"));
     }
 
